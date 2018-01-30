@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#BBDEF8",
+    "navigationBarTitleText": "一起来拼车",
+    "navigationBarTextStyle":"black"
+  }
+}
