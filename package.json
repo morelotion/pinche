@@ -1,0 +1,27 @@
+{
+  "name": "pinche",
+  "version": "1.0.0",
+  "description": "pinche weapp",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morelotion/pinche.git"
+  },
+  "keywords": [
+    "pinche",
+    "weapp"
+  ],
+  "author": "yuhgi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morelotion/pinche/issues"
+  },
+  "homepage": "https://github.com/morelotion/pinche#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0"
+  }
+}

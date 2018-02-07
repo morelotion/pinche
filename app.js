@@ -1,10 +1,11 @@
 //app.js
 App({
     onLaunch: function () {
+        console.log('app launch');
         // 展示本地存储能力
-        var logs = wx.getStorageSync('logs') || []
-        logs.unshift(Date.now())
-        wx.setStorageSync('logs', logs)
+        const logs = wx.getStorageSync('logs') || [];
+        logs.unshift(Date.now());
+        wx.setStorageSync('logs', logs);
 
         // 登录
         wx.login({
@@ -28,12 +29,18 @@ App({
                                 this.userInfoReadyCallback(res)
                             }
                         }
-                    })
+                    });
                 }
             }
-        })
+        });
+    },
+    onShow(){
+        console.log('app show');
+    },
+    onHide(){
+        console.log('app hide');
     },
     globalData: {
         userInfo: null
     }
-})
+});
