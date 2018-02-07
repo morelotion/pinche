@@ -1,12 +1,36 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#BBDEF8",
-    "navigationBarTitleText": "一起来拼车",
-    "navigationBarTextStyle":"black"
-  }
+    "pages": [
+        "pages/index/index",
+        "pages/orderList/index",
+        "pages/newOrder/index",
+        "pages/orderDetail/index",
+        "pages/my/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#BBDEF8",
+        "navigationBarTitleText": "一起来拼车",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color":"#515151",
+        "selectedColor":"#008888",
+        "backgroundColor":"#DDD",
+        "borderStyle":"black",
+        "list": [{
+                "pagePath": "pages/orderList/index",
+                "text": "我要拼车"
+            },{
+                "pagePath": "pages/newOrder/index",
+                "text": "发起拼车"
+            },{
+                "pagePath":"pages/my/index",
+                "text":"我的"
+            }
+        ]
+    },
+    "networkTimeout": {
+        "request": 20000,
+        "downloadFile": 3600000
+    }
 }

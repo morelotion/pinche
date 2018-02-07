@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.vue": "vue",
+        "*.ejs": "ejs",
+        "*.wxss": "css",
+        "*.wxml": "html"
+    }
+}
